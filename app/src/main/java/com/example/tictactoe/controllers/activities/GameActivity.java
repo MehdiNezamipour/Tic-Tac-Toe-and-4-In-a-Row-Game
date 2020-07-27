@@ -3,6 +3,8 @@ package com.example.tictactoe.controllers.activities;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +17,12 @@ public class GameActivity extends AppCompatActivity {
 
     private Button mButtonTicTacToe;
     private Button mButtonFourInARow;
-    
+
+    public static Intent newIntent(Context context) {
+        Intent intent = new Intent(context, GameActivity.class);
+        return intent;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
