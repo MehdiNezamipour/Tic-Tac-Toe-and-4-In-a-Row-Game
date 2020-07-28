@@ -6,4 +6,5 @@
     <string name="tic_tac_toe">Tic Tac Toe</string>
     <string name="game_tic_tac_toe">Game: Tic Tac Toe</string>
     <string name="reset">reset</string>
+    <string name="game_4_in_a_row">Game: 4 in a Row</string>
 </resources>

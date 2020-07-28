@@ -10,8 +10,7 @@
 
 
     <TextView
-        android:layout_marginTop="10dp"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textColor="@android:color/black"
         android:gravity="center"
         android:id="@+id/textView_game_four_in_a_row"
@@ -22,16 +21,14 @@
 
     <TextView
         android:id="@+id/textView_player_turn_four"
-        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textColor="@android:color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="turn of player" />
 
     <androidx.gridlayout.widget.GridLayout
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:columnCount="5"
@@ -40,130 +37,130 @@
 
         <Button
             android:id="@+id/button_1_1_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_1_2_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_1_3_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_1_4_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_1_5_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_2_1_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_2_2_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_2_3_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_2_4_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_2_5_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
         <Button
             android:id="@+id/button_3_1_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_3_2_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_3_3_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_3_4_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_3_5_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
         <Button
             android:id="@+id/button_4_1_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_4_2_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_4_3_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_4_4_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_4_5_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
         <Button
             android:id="@+id/button_5_1_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_5_2"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_5_3"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_5_4_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <Button
             android:id="@+id/button_5_5_four"
-            android:layout_width="60dp"
-            android:layout_height="60dp" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
     </androidx.gridlayout.widget.GridLayout>
 
     <Button
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/button_reset_four"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
