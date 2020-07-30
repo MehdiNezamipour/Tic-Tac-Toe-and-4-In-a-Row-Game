@@ -7,4 +7,10 @@
     <string name="game_tic_tac_toe">Game: Tic Tac Toe</string>
     <string name="reset">reset</string>
     <string name="game_4_in_a_row">Game: 4 in a Row</string>
+    <string name="player_one">Player one</string>
+    <string name="player_two">Player two</string>
+    <string name="level">Level</string>
+    <string name="start_game">Start Game</string>
+    <string name="table_lvl">Table lvl</string>
+    <string name="welcome">Welcome</string>
 </resources>

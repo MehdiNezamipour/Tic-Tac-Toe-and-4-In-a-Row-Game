@@ -1,5 +1,5 @@
 package com.example.tictactoe.enums;
 
-public enum Status {
+public enum StatusTicTacToe {
     X, O, E
 }

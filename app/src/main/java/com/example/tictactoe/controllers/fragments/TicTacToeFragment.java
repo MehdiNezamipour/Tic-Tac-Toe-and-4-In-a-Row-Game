@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.tictactoe.R;
-import com.example.tictactoe.enums.Status;
 import com.example.tictactoe.models.tic.TicTacToe;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;

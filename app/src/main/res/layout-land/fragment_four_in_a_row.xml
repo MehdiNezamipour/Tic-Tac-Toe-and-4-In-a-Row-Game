@@ -1,171 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-
+    android:background="#91E6B1"
+    android:gravity="center"
+    android:padding="16dp"
     tools:context=".controllers.fragments.FourInARowFragment">
 
 
     <TextView
-        android:textSize="18sp"
-        android:textColor="@android:color/black"
-        android:gravity="center"
-        android:id="@+id/textView_game_four_in_a_row"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="@string/game_4_in_a_row"/>
-
-    <TextView
-        android:id="@+id/textView_player_turn_four"
-        android:gravity="center"
-        android:textSize="18sp"
-        android:textColor="@android:color/black"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="turn of player" />
-
-    <androidx.gridlayout.widget.GridLayout
+        android:layout_marginTop="16dp"
+        android:id="@+id/turn_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:columnCount="5"
-        app:rowCount="5"
-        android:layout_gravity="center">
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="turn of player" />
 
-        <Button
-            android:id="@+id/button_1_1_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_1_2_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_1_3_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_1_4_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_1_5_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_2_1_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_2_2_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_2_3_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_2_4_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_2_5_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-        <Button
-            android:id="@+id/button_3_1_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_3_2_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_3_3_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_3_4_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_3_5_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-        <Button
-            android:id="@+id/button_4_1_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_4_2_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_4_3_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_4_4_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_4_5_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-        <Button
-            android:id="@+id/button_5_1_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_5_2"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_5_3"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_5_4_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-        <Button
-            android:id="@+id/button_5_5_four"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
-    </androidx.gridlayout.widget.GridLayout>
-
-    <Button
-        android:layout_marginTop="10dp"
-        android:id="@+id/button_reset_four"
+    <LinearLayout
+        android:id="@+id/setting_layout"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reset" />
+        android:layout_margin="16dp"
+        android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/player1_EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/player_one"
+            android:inputType="textPersonName" />
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/player2_EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/player_two"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/level_EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/level"
+            android:inputType="number" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/start_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_game"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/containerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</FrameLayout>
+
